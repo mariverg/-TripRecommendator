@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Planner</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+</head>
+<body>
+  <header>
+    <h1>Travel Planner</h1>
+  </header>
+  
+  <main>
+    
+    <h2>Recommended Destinations</h2>
+    <label for="location-input">Enter your travel location:</label>
+    <input type="text" id="location-input" placeholder="e.g., Paris, beach, mountain...">
+    <button id="search-button">Search Destinations</button>
+    <div id="map" style="height: 500px;"></div>
+  </main>
+
+  <script src="app.js"></script>
+  <script src="map.js"></script>
+</body>
+</html>
